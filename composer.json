@@ -1,0 +1,13 @@
+{
+  "name": "robin-chat/libsodium",
+  "description": "libsodium package",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RobinChat\\Libsodium\\": "src/"
+    }
+  }
+}
